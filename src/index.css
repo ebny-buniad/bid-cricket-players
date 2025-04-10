@@ -6,3 +6,31 @@
   color-scheme: light dark;
 }
 
+#hero-background{
+  background-color: black;
+  background-image: url(./assets/bg-shadow.png);
+  background-size: cover;
+  height: 70vh;
+}
+
+.credit-button {
+  margin-top: 20px;
+  background-color: #d7fc37;
+  color: black;
+  font-weight: bold;
+  border-radius: 14px;
+  padding: 18px 3px;
+  box-shadow: 
+    0 0 4px #d7fc37,
+    inset 0 0 8px #b7e700;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.credit-button:hover {
+  box-shadow: 
+    0 0 8px #d7fc37,
+    0 0 16px #d7fc37,
+    inset 0 0 10px #b7e700;
+}
+
