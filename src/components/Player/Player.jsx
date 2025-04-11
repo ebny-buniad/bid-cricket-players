@@ -3,7 +3,7 @@ import { FaFlag } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
 
 
-const Player = ({ player }) => {
+const Player = ({ player, subCredit }) => {
 
     return (
         <>
@@ -28,7 +28,7 @@ const Player = ({ player }) => {
                             </div>
                             <div className='flex justify-between items-center'>
                                 <div>${player.biddingPrice}</div>
-                                <div><button className='btn'>Choose Player</button></div>
+                                <div><button onClick={() =>{subCredit(player.biddingPrice)}} className='btn'>Choose Player</button></div>
                             </div>
                         </div>
                     </div>

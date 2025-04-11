@@ -1,13 +1,11 @@
-import Hero from "./components/Hero/Hero"
 import Navbar from "./components/Navbar/Navbar"
-import Main from "./components/Main/Main"
+import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
-      <Hero></Hero>
-      <Main></Main>
+      <Footer></Footer>
     </>
   )
 }

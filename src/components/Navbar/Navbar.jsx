@@ -1,10 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { HiMiniCurrencyDollar } from "react-icons/hi2";
 
 import logo from '../../assets/logo.png'
-const Navbar = () => {
-    const coinClasses = 'border border-gray-300 px-4 flex items-center gap-1 py-3 rounded font-semibold';
+import Banner from '../Banner/Banner';
+import Main from '../Main/Main'
 
+const Navbar = () => {
+
+    const [coin, setCoin] = useState(0);
+    const handelCredit = () => {
+        const newCoin = coin + 100000;
+        setCoin(newCoin);
+    }
+
+    const subCredit = (biddingPrice) => {
+        const newCoin = coin - biddingPrice;
+        setCoin(newCoin);
+    }
+
+
+    const coinClasses = 'border border-gray-300 px-4 flex items-center gap-1 py-3 rounded font-semibold';
     return (
         <>
             <div className="fixed top-0 w-full backdrop-blur-xl z-10">
@@ -18,13 +33,16 @@ const Navbar = () => {
                             <li><a>Fixture</a></li>
                             <li><a>Teams</a></li>
                             <li><a>Link</a></li>
-                            <div className={coinClasses}>0 Coin
+                            <div className={coinClasses}><span>{coin}</span> Coin
                                 <HiMiniCurrencyDollar className='text-yellow-500' size={24} />
                             </div>
                         </ul>
                     </div>
                 </div>
             </div>
+
+            <Banner handelCredit={handelCredit}></Banner>
+            <Main subCredit={subCredit}></Main>
         </>
     );
 };

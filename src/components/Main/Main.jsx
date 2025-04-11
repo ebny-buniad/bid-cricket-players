@@ -4,12 +4,12 @@ import Players from '../Players/Players';
 const loadPlayers = fetch('players.json')
     .then(response => response.json())
 
-const Main = () => {
+const Main = ({subCredit}) => {
     const playersPromise = loadPlayers;
     return (
         <div>
             <Suspense fallback={<p>Loading...</p>}>
-                <Players playersPromise={playersPromise}></Players>
+                <Players subCredit={subCredit} playersPromise={playersPromise}></Players>
             </Suspense>
         </div>
     );

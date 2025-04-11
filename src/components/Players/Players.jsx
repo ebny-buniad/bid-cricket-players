@@ -1,27 +1,47 @@
-import React, { use } from 'react';
+import React, { use, useState } from 'react';
 import Player from '../Player/Player';
+import Newsletter from '../Newsletter/Newsletter';
 
-const Players = ({ playersPromise }) => {
+const Players = ({ playersPromise, subCredit }) => {
     const players = use(playersPromise);
-    // console.log(players)
+
+    const [active, setActive] = useState('allPlayers')
+
     return (
         <>
             <div className='container flex items-center justify-between mx-auto my-10'>
                 <h2 className='text-2xl font-semibold'>Available Players</h2>
 
                 <div className='border border-gray-300 flex  rounded-md'>
-                    <button className='bg-[#d8fc38] p-3 rounded-l-md cursor-pointer'>Available</button>
-                    <button className='p-3 rounded-r-md cursor-pointer'>Selected <span>(0)</span></button>
+                    <button onClick={() => { setActive('allPlayers') }}
+                        className={` ${active === 'allPlayers' ? 'bg-[#d8fc38]' : ''}  p-3 rounded-l-md cursor-pointer`}>Available
+                    </button>
+                    <button onClick={() => { setActive('selectedPlayers') }}
+                        className={`p-3 ${active === 'selectedPlayers' ? 'bg-[#d8fc38]' : ''} rounded-r-md cursor-pointer`}>
+                        Selected <span>(0)</span>
+                    </button>
                 </div>
             </div>
 
-            <div className='container grid grid-cols-4 gap-4 mx-auto'>
-                {
-                    players.map((player) =>
-                        <Player player={player}></Player>
-                    )
-                }
-            </div>
+            {active === 'allPlayers' && (
+                <div className='container grid grid-cols-4 gap-4 mx-auto mb-20'>
+                    {
+                        players.map((player) =>
+                            <Player key={player.playerId} player={player} subCredit={subCredit}></Player>
+                        )
+                    }
+                </div>
+            )}
+
+
+
+            {active === 'selectedPlayers' && (
+                <div>
+                    <p>Selected Players</p>
+                </div>
+            )}
+
+            <Newsletter> </Newsletter>
 
         </>
     );
