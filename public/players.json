@@ -3,150 +3,150 @@
         "playerId": 1,
         "name": "Virat Kohli",
         "country": "India",
-        "image": "https://example.com/images/virat_kohli.jpg",
+        "image": "https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg",
         "role": "Batsman",
         "battingType": "Right-hand bat",
         "bowlingType": "Right-arm medium",
-        "biddingPrice": "2.5 Cr"
+        "biddingPrice": 25000000
     },
     {
         "playerId": 2,
         "name": "Steve Smith",
         "country": "Australia",
-        "image": "https://example.com/images/steve_smith.jpg",
+        "image": "https://c.ndtvimg.com/2025-01/779p0q78_steve-smith-afp_625x300_29_January_25.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605",
         "role": "Batsman",
         "battingType": "Right-hand bat",
         "bowlingType": "Right-arm leg break",
-        "biddingPrice": "1.8 Cr"
+        "biddingPrice": 18000000
     },
     {
         "playerId": 3,
         "name": "Ben Stokes",
         "country": "England",
-        "image": "https://example.com/images/ben_stokes.jpg",
+        "image": "https://e0.365dm.com/22/06/2048x1152/skysports-pa-ben-stokes-england_5805019.jpg?20220614201751",
         "role": "All-Rounder",
         "battingType": "Left-hand bat",
         "bowlingType": "Right-arm fast-medium",
-        "biddingPrice": "3.0 Cr"
+        "biddingPrice": 30000000
     },
     {
         "playerId": 4,
         "name": "Kane Williamson",
         "country": "New Zealand",
-        "image": "https://example.com/images/kane_williamson.jpg",
+        "image": "https://www.theindianwire.com/wp-content/uploads/2019/04/wp3051906.jpg",
         "role": "Batsman",
         "battingType": "Right-hand bat",
         "bowlingType": "Right-arm off break",
-        "biddingPrice": "2.0 Cr"
+        "biddingPrice": 20000000
     },
     {
         "playerId": 5,
         "name": "Rashid Khan",
         "country": "Afghanistan",
-        "image": "https://example.com/images/rashid_khan.jpg",
+        "image": "https://d3lzcn6mbbadaf.cloudfront.net/media/details/ANI-20240826162534.jpg",
         "role": "Bowler",
         "battingType": "Right-hand bat",
         "bowlingType": "Right-arm leg break",
-        "biddingPrice": "2.3 Cr"
+        "biddingPrice": 23000000
     },
     {
         "playerId": 6,
         "name": "Jasprit Bumrah",
         "country": "India",
-        "image": "https://example.com/images/jasprit_bumrah.jpg",
+        "image": "https://www.hindustantimes.com/ht-img/img/2025/04/02/550x309/WhatsApp_Image_2025-04-02_at_102316_1743569623266_1743569623501.jpeg",
         "role": "Bowler",
         "battingType": "Right-hand bat",
         "bowlingType": "Right-arm fast",
-        "biddingPrice": "2.7 Cr"
+        "biddingPrice": 27000000
     },
     {
         "playerId": 7,
         "name": "David Warner",
         "country": "Australia",
-        "image": "https://example.com/images/david_warner.jpg",
+        "image": "https://www.deccanchronicle.com/h-upload/2024/06/25/1099441-gq6awufbwaayofg.webp",
         "role": "Batsman",
         "battingType": "Left-hand bat",
         "bowlingType": "Right-arm leg break",
-        "biddingPrice": "2.1 Cr"
+        "biddingPrice": 21000000
     },
     {
         "playerId": 8,
         "name": "Shakib Al Hasan",
         "country": "Bangladesh",
-        "image": "https://example.com/images/shakib_al_hasan.jpg",
+        "image": "https://thereport.live/media/imgAll/2024November/sh-(1)-20241130092258.jpg",
         "role": "All-Rounder",
         "battingType": "Left-hand bat",
         "bowlingType": "Left-arm orthodox",
-        "biddingPrice": "2.0 Cr"
+        "biddingPrice": 20000000
     },
     {
         "playerId": 9,
         "name": "Babar Azam",
         "country": "Pakistan",
-        "image": "https://example.com/images/babar_azam.jpg",
+        "image": "https://www.probatsman.com/wp-content/uploads/2025/04/Babar-Azam-PSL.jpg",
         "role": "Batsman",
         "battingType": "Right-hand bat",
         "bowlingType": "Right-arm off break",
-        "biddingPrice": "2.6 Cr"
+        "biddingPrice": 26000000
     },
     {
         "playerId": 10,
         "name": "Trent Boult",
         "country": "New Zealand",
-        "image": "https://example.com/images/trent_boult.jpg",
+        "image": "https://api.bdcrictime.com/post-images/November%202022/trent-boult-nz-wc-squad-10_08_2023.jpg",
         "role": "Bowler",
         "battingType": "Right-hand bat",
         "bowlingType": "Left-arm fast-medium",
-        "biddingPrice": "1.9 Cr"
+        "biddingPrice": 19000000
     },
     {
         "playerId": 11,
         "name": "Hardik Pandya",
         "country": "India",
-        "image": "https://example.com/images/hardik_pandya.jpg",
+        "image": "https://c.ndtvimg.com/2024-04/4ccj0ft_hardik-pandya-mi-bcci_625x300_14_April_24.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=738",
         "role": "All-Rounder",
         "battingType": "Right-hand bat",
         "bowlingType": "Right-arm fast-medium",
-        "biddingPrice": "2.8 Cr"
+        "biddingPrice": 28000000
     },
     {
         "playerId": 12,
         "name": "Quinton de Kock",
         "country": "South Africa",
-        "image": "https://example.com/images/quinton_de_kock.jpg",
+        "image": "https://p.imgci.com/db/PICTURES/CMS/286700/286706.jpg",
         "role": "Wicketkeeper-Batsman",
         "battingType": "Left-hand bat",
         "bowlingType": "N/A",
-        "biddingPrice": "2.2 Cr"
+        "biddingPrice": 22000000
     },
     {
         "playerId": 13,
         "name": "Andre Russell",
         "country": "West Indies",
-        "image": "https://example.com/images/andre_russell.jpg",
+        "image": "https://imgengine.khaleejtimes.com/khaleejtimes/import/images/FuFCPc3GYekl8KCEVZSLE1K1FUM.jpg?width=1200&format=auto",
         "role": "All-Rounder",
         "battingType": "Right-hand bat",
         "bowlingType": "Right-arm fast",
-        "biddingPrice": "3.1 Cr"
+        "biddingPrice": 31000000
     },
     {
         "playerId": 14,
         "name": "Mohammad Rizwan",
         "country": "Pakistan",
-        "image": "https://example.com/images/mohammad_rizwan.jpg",
+        "image": "https://www.hindustantimes.com/ht-img/img/2025/04/10/550x309/CRICKET-CT-2025-PAK-IND-227_1744260754495_1744260763363.jpg",
         "role": "Wicketkeeper-Batsman",
         "battingType": "Right-hand bat",
         "bowlingType": "N/A",
-        "biddingPrice": "1.6 Cr"
+        "biddingPrice": 16000000
     },
     {
         "playerId": 15,
         "name": "Moeen Ali",
         "country": "England",
-        "image": "https://example.com/images/moeen_ali.jpg",
+        "image": "https://cdcimages.cricket.com/articles/content/1741343575637?auto=compress,format&dpr=1&w=976&h400&q=80",
         "role": "All-Rounder",
         "battingType": "Left-hand bat",
         "bowlingType": "Right-arm off break",
-        "biddingPrice": "1.7 Cr"
+        "biddingPrice": 17000000
     }
 ]

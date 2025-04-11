@@ -7,13 +7,13 @@ const Navbar = () => {
 
     return (
         <>
-            <div class=" bg-base-100 shadow-sm backdrop-blur-md">
+            <div className="fixed top-0 w-full backdrop-blur-xl z-10">
                 <div className="container navbar mx-auto">
-                    <div class="flex-1">
-                        <a class=""><img className='w-16' src={logo} alt="" /></a>
+                    <div className="flex-1">
+                        <a className=""><img className='w-16' src={logo} alt="" /></a>
                     </div>
-                    <div class="flex-none">
-                        <ul class="menu menu-horizontal px-1 flex items-center">
+                    <div className="flex-none">
+                        <ul className="menu menu-horizontal px-1 flex items-center">
                             <li><a>Home</a></li>
                             <li><a>Fixture</a></li>
                             <li><a>Teams</a></li>
