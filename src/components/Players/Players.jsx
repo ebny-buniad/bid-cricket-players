@@ -5,7 +5,15 @@ import Newsletter from '../Newsletter/Newsletter';
 const Players = ({ playersPromise, subCredit }) => {
     const players = use(playersPromise);
 
-    const [active, setActive] = useState('allPlayers')
+    const [active, setActive] = useState('allPlayers');
+
+    const [selected, setSelected] = useState(0)
+
+    const updateSelectedPlayers = () => {
+        const newSelected = selected + 1;
+        setSelected(newSelected)
+
+    }
 
     return (
         <>
@@ -18,7 +26,7 @@ const Players = ({ playersPromise, subCredit }) => {
                     </button>
                     <button onClick={() => { setActive('selectedPlayers') }}
                         className={`p-3 ${active === 'selectedPlayers' ? 'bg-[#d8fc38]' : ''} rounded-r-md cursor-pointer`}>
-                        Selected <span>(0)</span>
+                        Selected <span>({selected})</span>
                     </button>
                 </div>
             </div>
@@ -27,7 +35,11 @@ const Players = ({ playersPromise, subCredit }) => {
                 <div className='container grid grid-cols-4 gap-4 mx-auto mb-20'>
                     {
                         players.map((player) =>
-                            <Player key={player.playerId} player={player} subCredit={subCredit}></Player>
+                            <Player key={player.playerId}
+                                player={player}
+                                subCredit={subCredit}
+                                updateSelectedPlayers={updateSelectedPlayers}
+                            ></Player>
                         )
                     }
                 </div>
